@@ -22,4 +22,5 @@ colMeans(testAggOk[1:86]) # yes! casting function worked!
 
 ## save datafile to disk
 write.csv(accAggData, "./data/accAggData.csv", quote = TRUE, row.names = FALSE)
+write.table(accAggData, "./data/accAggData.txt", sep = "\t", quote = TRUE, row.names = FALSE)
 save(accAggData, file = "./data/accAggData.rda")
