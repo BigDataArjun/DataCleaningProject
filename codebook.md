@@ -14,7 +14,7 @@ The data structure consists of 10299 observations of 86 features (response varia
 
 The feature (response) variables are outlined below - refer to feature selection below.
 
-The two independent variables ('subject' and 'activity' identify the subject person 'subject' from whom the data was collected and the 'activity' they were carrying out when the data was being collected.
+The two independent variables ('subject' and 'activity') identify the subject person 'subject' from whom the data was collected and the 'activity' they were carrying out when the data was being collected.
 
 Since two independent variables are present, the **subject** variable should be subset out of the training set (if trying to predict activity type), so that the resulting prediction model does not use **subject** as a predictor of activity. Basically, different subjects (people) walk in different ways.
 
