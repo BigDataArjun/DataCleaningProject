@@ -52,15 +52,20 @@ Next, the data frame was subset to include only the sets feature variables recor
 ## Processed data outputs
 
 ### Codebook
-The **codebook.md** file describes the data structure of the processed data files found in the './data' subdirectory:
+The **codebook.md** file describes the data structure of the processed data files found in the './data' subdirectory.
 
-### Subset processed data files:
-* accData.csv
-* accData.rda
+The processed data files present only a subset of the response variables given in the raw data files.
+These processed files are given in three formats: 
+
+### Processed data files:
+* **accData.csv** - comma separated value data file with character strings encapsulated in quotes
+* **accData.txt** - tab separated value data file
+* **accData.rda** - R binary data file
 
 ### Aggregate data files:
 An aggregated dataset of average values for each feature and 'activity - subject' combination is provided in 'accAggData.csv' and 'accAggData.rda'.
 
-* accData.csv
-* accData.rda
+* **accData.csv** - comma separated value data file with character strings encapsulated in quotes
+* **accData.txt** - tab separated value data file
+* **accData.rda** - R binary data file
 
