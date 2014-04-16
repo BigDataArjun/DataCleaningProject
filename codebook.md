@@ -1,14 +1,27 @@
 # Codebook
 
 ## Data structure
-The data has been prepared in both comma separated value (**accData.csv**) and R binary data file (**accData.rda**) formats. Both files are identical in structure and have been processed from the supplied raw data files.
+### Data files
+The data has been prepared in three formats:
+* comma separated value (**accData.csv**)
+* tab deliminated text file (**accData.txt**)
+* R binary data file (**accData.rda**) formats. 
+
+All three files are identical in structure and have been processed from the supplied raw data files. The text files were produced because the coursera project submission page would not except files with .csv extensions.
+
+### Structure and dimensions
 The data structure consists of 10299 observations of 88 features and two identifier variables. 
 
 The feature variables are outlined below (refer to feature selection) and the two identifier variables ('subject' and 'activity' identify the subject person 'subject' from whom the data was collected and the 'activity' they were carrying out when the data was being collected.
 
-In addition, an aggregated dataset of average values for each feature and 'activity - subject' combination is provided in 'accAggData.csv' and 'accAggData.rda'.
+### Summarised dataset
+In addition, an aggregated dataset of average values for each feature and 'activity - subject' combination is provided in **accAggData.csv** and **accAggData.rda**.
+The text file format of this dataset has been submitted via the cousera project submission page
 
-All of these output data files are located in the ./data subdirectory. Raw data files are located in the ./rawData subdirectory. Refer to README.md for more information.
+### Data location
+All of these output data files are located in the ./data subdirectory at the author's github repository - https://github.com/jameselvy/DataCleaningProject/. 
+
+Raw data files are located in the ./rawData subdirectory. Refer to **README.md** for more information.
 
 ## Data Processing
 ### Creation of dataframe
