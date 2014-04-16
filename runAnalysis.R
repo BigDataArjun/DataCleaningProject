@@ -1,5 +1,6 @@
 ### runAnalysis.R
-### dataCleaning Project (c) 2014 J Elvy 
+### DataCleaning Project for course 'getting and cleaning data course'
+### This data file (c) 2014 J Elvy 
 
 
 rm(list = ls(all = TRUE))                 ## start with clean environment
