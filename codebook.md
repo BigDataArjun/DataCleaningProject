@@ -35,7 +35,7 @@ The data features were noted to be recorded with a large number of significant f
 ### Missing values
 The resulting dataframe was checked for NA data and none were detected
 
-### subsetting
+### Subsetting
 Next, the data frame was subset to include only the sets feature variables recording averages and standard deviations.
 
 
