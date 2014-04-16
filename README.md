@@ -36,13 +36,16 @@ These scripts are summarised below:
 ### Creation of dataframe
 The processing of the data included merging the test and training data, and adding the corresponding subject and activity columns. 
 
-## Transformations
+### Transformations
 Column headings were imported and transformed by removing characters that often cause problems for column names '(' , ')' , '-' , and ','.
 
 The data features were noted to be recorded with a large number of significant figures. Possibly more than the precision of the recording instruments on the Samsung smartphone. However, no transformations have been made to 'round' the response variables to lower precision in case this precision is needed. Lower precision will result in smaller data files.
 
-## Missing values
+### Missing values
 The resulting dataframe was checked for NA data and none were detected
+
+### subsetting
+Next, the data frame was subset to include only the sets feature variables recording averages and standard deviations.
 
 
 
