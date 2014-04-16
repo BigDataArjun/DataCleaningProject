@@ -15,7 +15,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The raw data files are stored in the './rawData' subdirectory
 
 
-
 ## Organisation
 
 ### R scripts
@@ -46,7 +45,8 @@ Next, the data frame was subset to include only the sets feature variables recor
 
 ## Processed data outputs
 
-The codebook.md file describes the data structure of the processed data files found in the './data' subdirectory:
+### Codebook
+The **codebook.md** file describes the data structure of the processed data files found in the './data' subdirectory:
 
 ### Subset processed data files:
 * accData.csv
