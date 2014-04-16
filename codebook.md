@@ -1,23 +1,23 @@
 # Codebook
 
 ## Data structure
-The data has been prepared in both comma separated value (accData.csv) and R binary data file (accData.rda) formats. Both files are identical in structure and have been processed from the supplied raw data files.
+The data has been prepared in both comma separated value (**accData.csv**) and R binary data file (**accData.rda**) formats. Both files are identical in structure and have been processed from the supplied raw data files.
 The data structure consists of 10299 observations of 88 features and two identifier variables. 
 
 The feature variables are outlined below (refer to feature selection) and the two identifier variables ('subject' and 'activity' identify the subject person 'subject' from whom the data was collected and the 'activity' they were carrying out when the data was being collected.
 
 In addition, an aggregated dataset of average values for each feature and 'activity - subject' combination is provided in 'accAggData.csv' and 'accAggData.rda'.
 
-All the output files are located in the ./data subdirectory. Raw data files are located in the ./rawData subdirectory. Refer to README.md for more information.
+All of these output data files are located in the ./data subdirectory. Raw data files are located in the ./rawData subdirectory. Refer to README.md for more information.
 
 ## Data Processing
 The processing of the data included merging the test and training data, and adding the corresponding subject and activity columns. 
 
-Column headings were imported and cleaned by up by removing characters that often cause problems for column names '(', ')', '-', and ','. 
+Column headings were imported and cleaned by up by removing characters that often cause problems for column names '(' , ')' , '-' , and ','. 
 
 The resulting dataframe was checked for NA data and none was located.
 
-Next, the data framw was subset to include only the sets feature variables recording averages and standard deviations.
+Next, the data frame was subset to include only the sets feature variables recording averages and standard deviations.
 
 
 ## Feature Selection
