@@ -20,7 +20,7 @@ source("./scripts/subsetDataFrame.R")     ## use gsub with regular expression to
                                           ## feature representing including means and standard deviations
 
 source("./scripts/saveData.R")            ## save 'accData' dataframe into new data subfolder
-                                          ## saved as accData.rda and accData.csv
+                                          ## saved as accData.rda, accData.txt and accData.csv
 
 source("./scripts/summaryMeanDataFrame.R") ## create aggregate summary dataset using reshape
                                           ## saved as accAggData.rda
