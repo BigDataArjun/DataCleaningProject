@@ -22,13 +22,13 @@ The data processing can be carried out by running the **runAnalysis.R** script. 
 
 These scripts are summarised below:
 
-* source("./scripts/loadLibraries.R") - loads package libraries
-* source("./scripts/getData.R") - downloads raw data and save in rawData directory
-* source("./scripts/createDataFrame.R") - creates dataframe acc by merging training and test data and adding subject and activity columns and feature names for column headings
-* source("./scripts/tidyUpDataFrame.R") - ransforms column names to remove illegal chars in colnames check for NA data and remove if necessary
-* source("./scripts/subsetDataFrame.R") - uses gsub with regular expression to subset dataframe feature representing including means and standard deviations
-* source("./scripts/saveData.R") - saves 'accData' dataframe into new data subfolder saved as accData.rda and accData.csv
-* source("./scripts/summaryMeanDataFrame.R") - creates aggregate summary dataset using reshape saved as accAggData.rda
+* **./scripts/loadLibraries.R** - loads package libraries
+* **./scripts/getData.R** - downloads raw data and save in rawData directory
+* **./scripts/createDataFrame.R** - creates dataframe acc by merging training and test data and adding subject and activity columns and feature names for column headings
+* **./scripts/tidyUpDataFrame.R** - transforms column names to remove illegal chars in colnames check for NA data and remove if necessary
+* **./scripts/subsetDataFrame.R** - uses gsub with regular expression to subset dataframe feature representing including means and standard deviations
+* **./scripts/saveData.R** - saves 'accData' dataframe into new data subfolder saved as accData.rda and accData.csv
+* **./scripts/summaryMeanDataFrame.R** - creates aggregate summary dataset using reshape saved as accAggData.rda
 
 
 
