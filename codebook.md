@@ -12,7 +12,9 @@ All three files are identical in structure and have been processed from the supp
 ### Structure and dimensions
 The data structure consists of 10299 observations of 86 features (response variables) and 2 independent variables - **subject** and **activity**. The total number of columns (variables) in the dataset in 88.
 
-The feature (response) variables are outlined below (refer to feature selection) and the two independent variables ('subject' and 'activity' identify the subject person 'subject' from whom the data was collected and the 'activity' they were carrying out when the data was being collected.
+The feature (response) variables are outlined below - refer to feature selection below.
+
+The two independent variables ('subject' and 'activity' identify the subject person 'subject' from whom the data was collected and the 'activity' they were carrying out when the data was being collected.
 
 Since two independent variables are present, the **subject** variable should be subset out of the training set (if trying to predict activity type), so that the resulting prediction model does not use **subject** as a predictor of activity. Basically, different subjects (people) walk in different ways.
 
